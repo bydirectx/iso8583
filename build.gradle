@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.solab'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.github.spotbugs', name: 'spotbugs-annotations', version: '3.1.12'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.26'
+}
